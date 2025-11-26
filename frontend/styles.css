@@ -1,0 +1,16 @@
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background: radial-gradient(circle at 20% 20%, #f5f7ff, #eef2ff 35%, #e9ecef 60%, #f8f9fa);
+}
+
+.card {
+  border: 0;
+  border-radius: 16px;
+}
+
+pre {
+  max-height: 320px;
+  overflow-y: auto;
+  background: transparent;
+  color: #e9ecef;
+}

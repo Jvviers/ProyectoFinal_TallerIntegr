@@ -1,0 +1,26 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: mhealth-backend
+    ports:
+      - "8000:8000"
+    restart: always
+    networks:
+      - mhealth-network
+
+  frontend:
+    build: ./frontend
+    container_name: mhealth-frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+    restart: always
+    networks:
+      - mhealth-network
+
+networks:
+  mhealth-network:
+    driver: bridge
