@@ -95,3 +95,5 @@ uvicorn app:app --reload
 
 ## Notas de compatibilidad
 - El modelo `model_pipeline.pkl` fue entrenado con scikit-learn 1.0.2; se fijan `scikit-learn==1.0.2`, `numpy==1.23.5` y `python-multipart` en `backend/requirements.txt`. Si cambias el modelo, usa la misma versión al entrenar para evitar errores de carga del pickle.
+
+---
