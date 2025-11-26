@@ -1,4 +1,8 @@
-__pycache__/
-*.log
-*.pkl
+ backend/model/model_pipeline.pkl
+  __pycache__/
+  *.pyc
+  *.pyo
+  .DS_Store
+  .vscode/
+  .idea/
 
