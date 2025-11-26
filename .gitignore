@@ -1,8 +1,8 @@
- backend/model/model_pipeline.pkl
-  __pycache__/
-  *.pyc
-  *.pyo
-  .DS_Store
-  .vscode/
-  .idea/
-
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.vscode/
+.idea/
+backend/model/model_pipeline.pkl
+backend/.dockerignore
